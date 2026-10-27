@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#252525" />
+    <meta
+      name="description"
+      content="Home Kit brings together practical home equipment, kitchen essentials, cleaning equipment, organizers, and everyday home accessories."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Home Kit | Your Home Kit, Always Ready"
+    />
+    <meta
+      property="og:description"
+      content="Explore home equipment and practical essentials for everyday living."
+    />
+    <title>Home Kit | Your Home Kit, Always Ready</title>
+    <link rel="icon" href="assets/home-kit-icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content" data-i18n="skip"
+      >Skip to content</a
+    >
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Home Kit — Home">
+          <img src="assets/home-kit-icon.svg" width="49" height="49" alt="" />
+          <span class="brand-type"
+            ><strong>HOME KIT</strong><small>هوم كيت</small></span
+          >
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#home" data-i18n="navHome">Home</a>
+          <a href="#categories" data-i18n="navCategories">Categories</a>
+          <a href="#about" data-i18n="navAbout">About us</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button
+            class="language-btn"
+            id="languageToggle"
+            type="button"
+            aria-label="Switch website language"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="17"
+              height="17"
+              aria-hidden="true"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.65"
+              stroke-linecap="round"
+            >
+              <circle cx="12" cy="12" r="9" />
+              <path d="M3 12h18M12 3c-5 5-5 13 0 18m0-18c5 5 5 13 0 18" />
+            </svg>
+            <span id="languageLabel">العربية</span>
+          </button>
+          <a class="btn btn-dark header-cta" href="#contact"
+            ><span data-i18n="letsTalk">Get in touch</span
+            ><span class="button-arrow" aria-hidden="true">↗</span></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span
+              ><span data-i18n="heroEyebrow"
+                >YOUR EVERYDAY HOME ESSENTIALS</span
+              >
+            </div>
+            <h1 data-i18n-html="heroTitle">
+              Make room for <span>better living.</span>
+            </h1>
+            <p class="hero-description" data-i18n="heroDescription">
+              From helpful tools to everyday household equipment, discover the
+              essentials that make home life simpler.
+            </p>
+            <div class="hero-buttons">
+              <a class="btn btn-dark btn-large" href="#categories"
+                ><span data-i18n="shopCategories">Explore categories</span
+                ><span class="button-arrow" aria-hidden="true">↗</span></a
+              >
+              <a class="btn btn-text" href="#about"
+                ><span data-i18n="discoverBrand">Discover Home Kit</span
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 12h16m-6-6 6 6-6 6" /></svg
+              ></a>
+            </div>
+            <div class="hero-footnote">
+              <span class="line-icon" aria-hidden="true">✳</span
+              ><span data-i18n="heroFootnote"
+                >Practical products for every corner of your home</span
+              >
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="Home Kit original brand logo">
+            <div class="hero-tile-number">HK / 01</div>
+            <div class="visual-outline visual-outline-one"></div>
+            <div class="visual-outline visual-outline-two"></div>
+            <div class="brand-poster">
+              <img
+                src="assets/home-kit-original-logo.webp"
+                width="1243"
+                height="1000"
+                alt="Home Kit original brand logo, with a house roof and four square windows, Arabic brand name هوم كيت, and the slogan Your Home Kit, Always Ready"
+                fetchpriority="high"
+              />
+            </div>
+            <div class="visual-tag">
+              <span class="tag-circle"></span
+              ><span data-i18n="tagHome">MADE FOR HOME</span
+              ><span class="tag-cross">＋</span>
+            </div>
+          </div>
+        </div>
+        <div class="container hero-bottom">
+          <span
+            >HOME KIT <span class="serif-star">✦</span>
+            <span data-i18n="heroBottom"
+              >YOUR HOME KIT, ALWAYS READY</span
+            ></span
+          ><span>EST. FOR EVERYDAY LIVING</span>
+        </div>
+      </section>
+
+      <section class="categories-section section-pad" id="categories">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow eyebrow-dark">
+                <span class="eyebrow-line"></span
+                ><span data-i18n="categoriesEyebrow">WHAT YOU'LL FIND</span>
+              </div>
+              <h2 data-i18n-html="categoriesTitle">
+                Essentials for <em>every space.</em>
+              </h2>
+            </div>
+            <p data-i18n="categoriesIntro">
+              Discover practical collections designed around real needs — at
+              home, in the kitchen, and everywhere in between.
+            </p>
+          </div>
+          <div class="category-grid">
+            <article class="category-card">
+              <div class="category-top">
+                <span>01 / 06</span>
+              </div>
+              <div class="category-icon">
+                <svg viewBox="0 0 160 150" aria-hidden="true">
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="5.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="m43 108 43-44m0 0c-10-19 7-40 25-40l-9 20 14 14 20-9c-1 22-24 34-43 23L50 115a11 11 0 0 1-16-15z"
+                    />
+                    <path d="m36 96 9 9" />
+                  </g>
+                </svg>
+              </div>
+              <div class="category-copy">
+                <h3 data-i18n="catTools">Tools & Equipment</h3>
+                <p data-i18n="catToolsDesc">
+                  Useful tools for your home projects and daily tasks.
+                </p>
+              </div>
+            </article>
+            <article class="category-card">
+              <div class="category-top">
+                <span>02 / 06</span>
+              </div>
+              <div class="category-icon">
+                <svg viewBox="0 0 160 150" aria-hidden="true">
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="5.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M40 63h80v43a15 15 0 0 1-15 15H55a15 15 0 0 1-15-15zM34 63h92M70 49h20M80 36v13M40 72H26c-9 0-12 8-7 15l17 17m84-32h14c9 0 12 8 7 15l-17 17"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="category-copy">
+                <h3 data-i18n="catKitchen">Kitchen Essentials</h3>
+                <p data-i18n="catKitchenDesc">
+                  Smart everyday helpers for cooking and dining.
+                </p>
+              </div>
+            </article>
+            <article class="category-card">
+              <div class="category-top">
+                <span>03 / 06</span>
+              </div>
+              <div class="category-icon">
+                <svg viewBox="0 0 160 150" aria-hidden="true">
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="5.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="29" y="39" width="102" height="76" rx="5" />
+                    <path
+                      d="M29 64h102M29 90h102M65 40v75m31-75v75M42 52h10m26 25h9m21 26h10"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="category-copy">
+                <h3 data-i18n="catStorage">Storage & Organization</h3>
+                <p data-i18n="catStorageDesc">
+                  Neat solutions for spaces that work better.
+                </p>
+              </div>
+            </article>
+            <article class="category-card">
+              <div class="category-top">
+                <span>04 / 06</span>
+              </div>
+              <div class="category-icon">
+                <svg viewBox="0 0 160 150" aria-hidden="true">
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="5.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M71 31h30v21H71zM76 52h20l12 27v33H64V79zM65 82h42M80 32V20h20m8 75h18a12 12 0 0 1 12 12v5h-30M74 113v15M98 113v15"
+                    />
+                    <circle cx="81" cy="96" r="5" />
+                  </g>
+                </svg>
+              </div>
+              <div class="category-copy">
+                <h3 data-i18n="catCleaning">Cleaning Equipment</h3>
+                <p data-i18n="catCleaningDesc">
+                  Everyday items that help keep things fresh.
+                </p>
+              </div>
+            </article>
+            <article class="category-card">
+              <div class="category-top">
+                <span>05 / 06</span>
+              </div>
+              <div class="category-icon">
+                <svg viewBox="0 0 160 150" aria-hidden="true">
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="5.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="m51 36 54-9 13 31-53 13zM90 64l-15 49m0-49 10 53m-31 0h60m-66 0h72M45 80l-8 13m7-25-15 3"
+                    />
+                    <circle cx="91" cy="63" r="4" />
+                  </g>
+                </svg>
+              </div>
+              <div class="category-copy">
+                <h3 data-i18n="catLighting">Lighting & Decor</h3>
+                <p data-i18n="catLightingDesc">
+                  Simple touches to make spaces feel complete.
+                </p>
+              </div>
+            </article>
+            <article class="category-card">
+              <div class="category-top">
+                <span>06 / 06</span>
+              </div>
+              <div class="category-icon">
+                <svg viewBox="0 0 160 150" aria-hidden="true">
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="5.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="42" y="35" width="76" height="77" rx="17" />
+                    <circle cx="80" cy="73" r="22" />
+                    <path d="M71 116v13h18v-13M80 50v11m-9 21 9-9 10 8" />
+                  </g>
+                </svg>
+              </div>
+              <div class="category-copy">
+                <h3 data-i18n="catAccessories">Home Accessories</h3>
+                <p data-i18n="catAccessoriesDesc">
+                  Helpful additions for your everyday routine.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="category-note">
+            <span data-i18n="categoryNote"
+              >Looking for something specific for your home?</span
+            ><a href="#contact" data-i18n="categoryNoteLink"
+              >Ask about our range <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="about">
+        <div class="container about-grid">
+          <div class="about-art">
+            <div class="about-art-inner">
+              <img
+                src="assets/home-kit-icon.svg"
+                alt=""
+                width="245"
+                height="245"
+              /><span>HOME KIT</span
+              ><small data-i18n="aboutArt">YOUR HOME KIT, ALWAYS READY.</small>
+            </div>
+            <div class="about-art-caption">
+              <span>HOME / 001</span><span>EVERYDAY ESSENTIALS</span>
+            </div>
+          </div>
+          <div class="about-content">
+            <div class="eyebrow eyebrow-dark">
+              <span class="eyebrow-line"></span
+              ><span data-i18n="aboutEyebrow">GET TO KNOW US</span>
+            </div>
+            <h2 data-i18n-html="aboutTitle">
+              A simpler way to <em>equip your home.</em>
+            </h2>
+            <p data-i18n="aboutLead">
+              Home Kit (هوم كيت) is a home equipment and essentials brand
+              focused on the practical items people use every day. We bring
+              together categories that help make daily life more organized,
+              convenient, and comfortable.
+            </p>
+            <div class="about-points">
+              <div>
+                <span>01</span>
+                <div>
+                  <h3 data-i18n="aboutPoint1">Useful by design</h3>
+                  <p data-i18n="aboutPoint1Desc">
+                    A focus on everyday function and practical home needs.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <span>02</span>
+                <div>
+                  <h3 data-i18n="aboutPoint2">For different spaces</h3>
+                  <p data-i18n="aboutPoint2Desc">
+                    From the kitchen to storage, cleaning, and maintenance.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <span>03</span>
+                <div>
+                  <h3 data-i18n="aboutPoint3">Easy to explore</h3>
+                  <p data-i18n="aboutPoint3Desc">
+                    Clear collections that help you find what you need.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement-band" aria-label="Brand slogan">
+        <div class="container statement-inner">
+          <span data-i18n="statement">YOUR HOME KIT, ALWAYS READY.</span
+          ><span class="statement-symbol" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="contact-section section-pad" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-intro">
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span
+              ><span data-i18n="contactEyebrow">LET'S CONNECT</span>
+            </div>
+            <h2 data-i18n-html="contactTitle">
+              Have a question? <em>Let's talk.</em>
+            </h2>
+            <p data-i18n="contactDesc">
+              Want to know more about Home Kit or ask about a product category?
+              Reach out through our available business contact channels.
+            </p>
+            <div class="contact-decoration" aria-hidden="true">↗</div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-top">
+              <span data-i18n="contactCardHeading">BUSINESS INQUIRIES</span
+              ><span>HK — 2026</span>
+            </div>
+            <div id="contactList" class="contact-list"></div>
+            <p
+              class="contact-placeholder"
+              id="contactPlaceholder"
+              data-i18n="contactPending"
+            >
+              Business contact information will be added here before launch.
+            </p>
+            <p class="contact-card-small" data-i18n="contactFooter">
+              We're happy to hear from you.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <a href="#top" class="footer-brand"
+            ><img
+              src="assets/home-kit-icon.svg"
+              width="39"
+              height="39"
+              alt=""
+            /><span>HOME KIT</span></a
+          ><span class="footer-tagline" data-i18n="footerTagline"
+            >Your Home Kit, Always Ready.</span
+          >
+        </div>
+        <div class="footer-right">
+          <nav aria-label="Footer navigation">
+            <a href="#categories" data-i18n="navCategories">Categories</a
+            ><a href="#about" data-i18n="navAbout">About us</a
+            ><a href="#contact" data-i18n="navContact">Contact</a>
+          </nav>
+          <span
+            >© <span id="year"></span> HOME KIT.
+            <span data-i18n="rights">All rights reserved.</span></span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
